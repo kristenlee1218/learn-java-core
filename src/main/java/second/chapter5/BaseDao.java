@@ -67,7 +67,6 @@ public class BaseDao {
         if (resultSet != null) {
             try {
                 resultSet.close();
-                resultSet = null;
             } catch (SQLException e) {
                 e.printStackTrace();
                 flag = false;
@@ -84,7 +83,6 @@ public class BaseDao {
         if (connection != null) {
             try {
                 connection.close();
-                connection = null;
             } catch (SQLException e) {
                 e.printStackTrace();
                 flag = false;
