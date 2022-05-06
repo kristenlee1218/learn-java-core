@@ -76,7 +76,6 @@ public class BaseDao {
         if (preparedStatement != null) {
             try {
                 preparedStatement.close();
-                preparedStatement = null;
             } catch (SQLException e) {
                 e.printStackTrace();
                 flag = false;
