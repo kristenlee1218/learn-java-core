@@ -24,12 +24,14 @@ package com.learn.chapter3;
  * 2、main 函数
  * （1）、运行已编译的程序时，Java 虚拟机将从指定类中的 main 方法开始执行（这里的 “方法” 就是 Java 中所说的 “函数”），
  * 因此为了代码能够执行，在类的源文件中必须包含一个 main 方法。
- *
+ * 
  * （2）、与 C/C++ 一样，关键字 void 表示这个方法没有返回值，所不同的是 main 方法没有为操作系统返回 “退出代码”。
  * 如果 main 方法正常退出，那么 Java 应用程序的退出代码为 0，表示成功地运行了程序。如果希望在终止程序时返回其他的代码，
  * 那就需要调用 System. exit 方法。
- *
- *
+ * 
+ * 3、注释
+ * 单行注释：//
+ * 多行注释：
  */
 public class HelloWorld {
     public static void main(String[] args) {
